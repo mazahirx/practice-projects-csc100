@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first form</title>
+</head>
+<body>
+    <header>
+        <h1>University Complaint Center</h1>
+    </header>
+    <hr>
+    <h3>Introduction</h3>
+        <p> At our University Complaint Center, we prioritize your voice and well-being. We understand that every student’s experience is unique,  and sometimes, challenges may arise that require support and resolution. Our dedicated team is here to listen, provide guidance, and help you navigate any issues you may encounter during your academic journey.
+        Whether you’re facing concerns related to academics, campus life, or interpersonal relationships, our platform offers a safe space for you to share your experiences. We are committed to fostering a respectful and inclusive environment where every concern is taken seriously and addressed promptly.
+        Explore our resources, submit your complaint, and let us work together to create a better university experience for everyone. Your feedback is invaluable, and we are here to ensure you feel heard and supported.</p>
+    <hr>
+    <form action="">
+        <table >
+            <caption><b>Complaint Form</b></caption>
+            <!--<caption><td><img src="logo.jpg" alt="" width="100"></td></caption>-->;
+            <tr>
+                <td><label for="my_name">Name :</label></td>
+                <td><input type="text" id="my_name" placeholder= "Enter your name" ></td>
+            </tr>
+            <tr>
+                <td><label for="reg_no">Registration No :</label></td>
+                <td><input type="text" id="reg_no" placeholder= "Enter your registration no." ></td>
+            </tr>
+            <tr>
+                <td>Select Your Departement : </td>
+                <td><select >
+                    <option value="option1">UIIT</option>
+                    <option value="option1">UIMS</option>
+                  </select></td>
+            </tr>
+            <tr>
+                <td><label for="reg_no">Registration No :</label></td>
+                <td><input type="text" id="reg_no" placeholder= "Degree\Sem\Section\Shift" ></td>
+            </tr>
+            <tr>
+                <td><label for="adm_date">Select Admission Date : </label></td>
+                <td><input type="date" id="adm_date" > Fall Sem.</td>
+            </tr>
+            <tr>
+                <td><label for="gender">Chose Your Gender : </label></td>
+                <td><input type="radio" name="gender" id="gender"> Male 
+                <input type="radio" name="gender">Female</td>
+            </tr>
+            <tr>
+                <td><label for="cptype">Select Your Complaints : </label></td>
+                    <td><input type="checkbox" name="cptype" id="">Staff
+                    <input type="checkbox" name="cptype" id="">Managment
+                    <input type="checkbox" name="cptype" id="">Other</td>        
+            </tr>
+            <tr>
+                <td><label for="img">Upload Your ID :</label></td>
+                <td><input type="file" name="img" id=""></td>
+            </tr>
+            <tr>
+                <td><label for="details">Details of Complaint :</label></td>
+            </tr>
+            <tr>
+                <td><textarea name="details" id="" rows="5" cols="30" placeholder="Enter Your Complaint Details" ></textarea></td>
+                <td><img src="logo.jpg" alt="" width="100"></td>
+            </tr>
+            <tr>
+                <td><label for="acpt"><u>Terms and Policies</u> : </label></td>
+                <td><input type="checkbox" name="acpt"  id="">Accept
+                    <input type="checkbox" name="acpt" id="">Decline</td>
+            </tr>
+            <tr>
+                <td><input type="submit"name="" id=""></td>
+            </tr>
+        </table>          
+    </form>
+</body>
+</html>

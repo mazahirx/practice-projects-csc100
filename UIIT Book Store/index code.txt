@@ -1,0 +1,78 @@
+<!--Mazahir Mehdi
+    24-arid-936
+    BS CS 1-(C)-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>UIIT Book Store</title>
+</head>
+<body>
+    <header>
+        <h1>UIIT Book Store</h1>
+    </header>
+<main>    
+    <hr>
+    <h2>Store Details</h2>
+    <p>This is a store for students of UIIT to buy books and other stuff.Welcome to the UIIT University Bookstore, your one-stop destination for all academic and campus life essentials. Whether you're looking for textbooks, reference materials, or supplies, we've got you covered. Our store is dedicated to providing students, faculty, and staff with a wide selection of books, stationery, and university merchandise. We also offer digital resources, study guides, and access to the latest educational tools to enhance your learning experience. At UIIT Bookstore, we strive to create a welcoming environment that supports your academic success and connects you with the university community.In addition to academic resources, the UIIT University Bookstore proudly offers a range of university-branded apparel, accessories, and gifts to showcase your school spirit. From comfortable hoodies and stylish t-shirts to water bottles, notebooks, and backpacks, you'll find everything you need to represent UIIT both on and off campus. We also host special events, author signings, and seasonal promotions to bring the community together and celebrate the vibrant campus life. Whether you're a first-year student or an alumnus, the UIIT Bookstore is here to support your journey with quality products and excellent customer service.</p>
+    <hr>
+    <h2>Discount Alert :</h2>
+    <h3>A discount of 30% is availible for first year students!</h3>
+    <hr>
+    <!--Table Code-->
+    <table>
+        <tr>
+            <td>
+                <!--Book Code-->
+                <h4>Book 1 </h4>
+                <img src="book-1.jpg" alt="Book1" width="250">
+                <p>Original Price = Rs.1500</p>
+                <p>Discount = 30%</p>
+                <p><b>Discout Price = Rs.1150</b></p>
+            </td>
+            <td>
+                <h4>Book 2 </h4>
+                <img src="book-2.jpg" alt="Book2" width="230">
+                <p>Original Price = Rs.1300</p>
+                <p>Discount = 30%</p>
+                <p><b>Discout Price = Rs.950</b></p>
+            </td>
+            <td>
+                <h4>Book 3 </h4>
+                <img src="book-3.jpg" alt="Book3" width="250">
+                <p>Original Price = Rs.1700</p>
+                <p>Discount = 30%</p>
+                <p><b>Discout Price = Rs.1350</b></p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h4>Book 4 </h4>
+                <img src="book-4.jpg" alt="Book4" width="250">
+                <p>Original Price = Rs.2100</p>
+                <p>Discount = 30%</p>
+                <p><b>Discout Price = Rs.1450</b></p>
+            </td>
+            <td>
+                <h4>Book 5 </h4>
+                <img src="book-5.jpg" alt="Book5" width="260">
+                <p>Original Price = Rs.1300</p>
+                <p>Discount = 30%</p>
+                <p><b>Discout Price = Rs.1050</b></p>
+            </td>
+            <td>
+                <h4>Book 6 </h4>
+                <img src="book-6.jpg" alt="Book1" width="330">
+                <p>Original Price = Rs.540</p>
+                <p>Discount = 30%</p>
+                <p><b>Discout Price = Rs.410</b></p>
+            </td>
+        </tr>
+    </table>
+    <hr>
+</main>
+    <footer>    
+        <h2>Thank You for visiting store!</h2>
+    </footer>   
+</body>
+</html>

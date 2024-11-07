@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+    background-image: url(/img/background1.jpg);
+}
+.container .logo{
+    display: flex;
+    padding: 10px;
+    font-size: 30px;
+}
+.logo #x{
+    color:  rgb(189, 75, 75);
+}
+.listitems{
+    padding: 10px;
+    list-style: none;
+    display: flex;
+}
+.listitems a{
+    padding: 10px;
+    text-decoration: none;
+    color:black;
+}
+.container .listitems a:hover{
+    background: rgb(189, 75, 75);
+}
+.search{
+    padding: 10px;
+}
+.search #search1{
+    padding: 5px;
+}
+.search #search2{
+    padding: 5px;
+    background: rgb(189, 75, 75);
+}
+.main{
+    display: flex;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+.main>p{
+    display: flex;
+    font-size: 100px;
+}
+#date{
+    padding-left: 100px;
+    display: inline;
+    font-size: 100px;
+    color: rgb(189, 75, 75);
+}
+.para{
+    background: transparent;
+    text-decoration: none;
+    padding-left: 100px;
+    width: 500px;
+    word-wrap: break-word;
+}
+.section2 .gallery{
+    background-image: url(/img/background.jpg);
+}
+.section2 .images1{
+    background-image: url(/img/background.jpg);
+}
+.game #subhead{
+    padding-top: 80px;
+    padding-right: 90px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+.game #subhead:hover{
+    text-decoration: underline;
+}
+.section2{
+    padding-top: 100px;
+}
+.gallery{
+   display: flex;
+   justify-content: center;
+   padding: 10px;
+}
+.images1{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
